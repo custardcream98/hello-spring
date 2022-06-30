@@ -9,11 +9,12 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
 repositories {
-	mavenCentral()
+	mavenCentral() // maven central이라는 사이트에서 라이브러리를 가져온다.
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	// 라이브러리들을 가져온다.
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' // HTML Templete Library
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
